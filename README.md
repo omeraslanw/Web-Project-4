@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Termometre Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Bu proje, Üretken Akademi görevleri 4. hafta ödevi için yapılmıştır. Basit bir termometre dönüşümü uygulamasıdır.
 
-## Available Scripts
+Bu proje, React.js temellerini pekiştirmek amacıyla geliştirilmiş bir başlangıç seviyesi uygulamasıdır. Proje, kullanıcıların sıcaklık değerini artırıp azaltarak termometredeki değerlerin değişimini gözlemlemesi için oluştutulmuştur.
 
-In the project directory, you can run:
+## Kullanılan Teknolojiler
 
-### `npm start`
+Bu projenin geliştirilmesinde aşağıdaki teknolojiler kullanılmıştır:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Kullanıcı arayüzü için.
+- **CSS**: Temel stil ve tasarım için.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kurulum ve Çalıştırma
 
-### `npm test`
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  **Projeyi klonlayın:**
+    ```sh
+    git clone https://github.com/omeraslanw/Web-Project-4.git
+    ```
 
-### `npm run build`
+2.  **Proje dizinine gidin:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.  **Gerekli paketleri yükleyin:**
+    ```sh
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4.  **Projeyi başlatın:**
+    ```sh
+    npm start
+    ```
+    *(Not: Eğer projeniz Vite ile oluşturulduysa bu komut `npm run dev` olabilir.)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Proje, varsayılan olarak `http://localhost:3000` adresinde çalışmaya başlayacaktır.
 
-### `npm run eject`
+## Öğrenilenler
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bu projeyi geliştirirken üzerinde durduğum ve tecrübe kazandığım bazı konular:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React component yapısı ve componentler arası iletişim.
+- HTML, CSS pratikleri
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Ekran Görüntüsü
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Proje Ekran Görüntüsü](https://github.com/omeraslanw/Web-Project-4/blob/main/termo.png)
